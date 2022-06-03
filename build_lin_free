@@ -35,5 +35,5 @@ make -j8
 rm -rf build/lin/obj
 cd build/lin
 zip vesc_tool_free_linux.zip `ls | grep -v '\.zip$'`
-ls | grep -v '\.zip$' | xargs rm
-cd ../..
+# ls | grep -v '\.zip$' | xargs rm
+# cd ../..
